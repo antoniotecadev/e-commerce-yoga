@@ -1,0 +1,53 @@
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Criado por https://www.gitignore.io/api/sublimetext,visualstudiocode
+# Editar em https://www.gitignore.io/?templates=sublimetext,visualstudiocode
+
+### SublimeText ###
+# Arquivos de cache para texto sublime
+* .tmlanguage.cache
+* .tmPreferences.cache
+* .stTheme.cache
+
+# Os arquivos da área de trabalho são específicos do usuário
+* .sublime-workspace
+
+# Os arquivos do projeto devem ser verificados no repositório, a menos que haja um
+# proporção de colaboradores provavelmente não estará usando Texto Sublime
+# * .sublime-project
+
+# Arquivo de configuração SFTP
+sftp-config.json
+
+# Arquivos específicos de controle de pacote
+Package Control.last-run
+Pacote Control.ca-list
+Pacote Control.ca-bundle
+Pacote Control.system-ca-bundle
+Pacote Control.cache /
+Control.ca-certs do pacote /
+Pacote Control.merged-ca-bundle
+Pacote Control.user-ca-bundle
+oscrypto-ca-bundle.crt
+bh_unicode_properties.cache
+
+# O pacote Sublime-github armazena um token do github nesse arquivo
+# https://packagecontrol.io/packages/sublime-github
+Configurações do GitHub.sublime
+
+### VisualStudioCode ###
+.vscode / *
+! .vscode / settings.json
+! .vscode / tasks.json
+! .vscode / launch.json
+! .vscode / extensions.json
+
+### Patch do VisualStudioCode ###
+# Ignora todo o histórico local de arquivos
+.história
+
+# Fim de https://www.gitignore.io/api/sublimetext,visualstudiocode
+
+/vendor/

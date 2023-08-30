@@ -1,0 +1,746 @@
+[22-Feb-2020 08:09:46 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'ControlCategoria' not found in /home/customer/www/koopangola.com/public_html/App/views/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/index.php on line 7
+[22-Feb-2020 08:12:33 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'ControlCategoria' not found in /home/customer/www/koopangola.com/public_html/App/views/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/index.php on line 7
+[22-Feb-2020 08:12:36 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'ControlCategoria' not found in /home/customer/www/koopangola.com/public_html/App/views/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/index.php on line 7
+[22-Feb-2020 08:19:30 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'ControlSubCategoria' not found in /home/customer/www/koopangola.com/public_html/App/views/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/index.php on line 8
+[22-Feb-2020 08:19:54 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function dadosLeilao() on null in /home/customer/www/koopangola.com/public_html/App/views/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/index.php on line 12
+[22-Feb-2020 08:20:46 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'ControlCategoria' not found in /home/customer/www/koopangola.com/public_html/App/views/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/index.php on line 7
+[22-Feb-2020 08:22:28 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'ControlCategoria' not found in /home/customer/www/koopangola.com/public_html/App/views/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/index.php on line 7
+[22-Feb-2020 08:27:04 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'ControlCategoria' not found in /home/customer/www/koopangola.com/public_html/App/views/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/index.php on line 7
+[22-Feb-2020 08:36:27 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'ControlCategoria' not found in /home/customer/www/koopangola.com/public_html/App/views/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/index.php on line 7
+[22-Feb-2020 08:36:32 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'ControlCategoria' not found in /home/customer/www/koopangola.com/public_html/App/views/index.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/index.php on line 7
+[22-Feb-2020 08:51:00 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'ControlCategoria' not found in /home/customer/www/koopangola.com/public_html/App/views/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/index.php on line 8
+[22-Feb-2020 08:52:52 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'ControlSubCategoria' not found in /home/customer/www/koopangola.com/public_html/App/views/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/index.php on line 9
+[22-Feb-2020 08:53:25 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/customer/www/koopangola.com/public_html/App/models/Leilao.php:219
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/controllers/ControlLeilao.php(13): Leilao->dadosLeilao()
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(13): ControlLeilao->dadosLeilao()
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/models/Leilao.php on line 219
+[22-Feb-2020 10:51:16 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/customer/www/koopangola.com/public_html/App/models/Leilao.php:219
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/controllers/ControlLeilao.php(13): Leilao->dadosLeilao()
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(13): ControlLeilao->dadosLeilao()
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/models/Leilao.php on line 219
+[22-Feb-2020 13:33:04 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/customer/www/koopangola.com/public_html/App/models/Leilao.php:219
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/controllers/ControlLeilao.php(13): Leilao->dadosLeilao()
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(13): ControlLeilao->dadosLeilao()
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/models/Leilao.php on line 219
+[22-Feb-2020 13:36:55 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'ControlSlider' not found in /home/customer/www/koopangola.com/public_html/App/views/home.php:12
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/index.php(288): include()
+#1 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/home.php on line 12
+[25-Feb-2020 14:56:54 CST6CDT] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) in /home/customer/www/koopangola.com/public_html/App/views/produtoaleatorio.php on line 237
+[13-Mar-2020 04:27:40 CST6CDT] PHP Recoverable fatal error:  Object of class PDOStatement could not be converted to string in /home/customer/www/koopangola.com/public_html/App/models/Usuario.php on line 43
+[13-Mar-2020 04:42:18 CST6CDT] PHP Parse error:  syntax error, unexpected '.', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/customer/www/koopangola.com/public_html/App/models/Usuario.php on line 62
+[13-Mar-2020 04:48:28 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'ControlEncomenda' not found in /home/customer/www/koopangola.com/public_html/App/views/admin.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/admin.php on line 14
+[13-Mar-2020 04:48:36 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'ControlEncomenda' not found in /home/customer/www/koopangola.com/public_html/App/views/admin.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/admin.php on line 14
+[13-Mar-2020 04:48:40 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'ControlEncomenda' not found in /home/customer/www/koopangola.com/public_html/App/views/admin.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/admin.php on line 14
+[13-Mar-2020 04:48:42 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'ControlEncomenda' not found in /home/customer/www/koopangola.com/public_html/App/views/admin.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/admin.php on line 14
+[13-Mar-2020 04:48:45 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'ControlEncomenda' not found in /home/customer/www/koopangola.com/public_html/App/views/admin.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/admin.php on line 14
+[13-Mar-2020 04:50:06 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'ControlEncomenda' not found in /home/customer/www/koopangola.com/public_html/App/views/admin.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/admin.php on line 14
+[13-Mar-2020 04:50:56 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'ControlEncomenda' not found in /home/customer/www/koopangola.com/public_html/App/views/admin.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/admin.php on line 14
+[13-Mar-2020 04:50:59 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'ControlEncomenda' not found in /home/customer/www/koopangola.com/public_html/App/views/admin.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/admin.php on line 14
+[13-Mar-2020 04:52:09 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function notificacaoEncomenda() on null in /home/customer/www/koopangola.com/public_html/App/views/admin.php:110
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/admin.php on line 110
+[13-Mar-2020 04:52:41 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'ControlEncomenda' not found in /home/customer/www/koopangola.com/public_html/App/views/admin.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/admin.php on line 14
+[13-Mar-2020 04:52:47 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'ControlEncomenda' not found in /home/customer/www/koopangola.com/public_html/App/views/admin.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/admin.php on line 14
+[13-Mar-2020 04:53:47 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'ControlEncomenda' not found in /home/customer/www/koopangola.com/public_html/App/views/admin.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/admin.php on line 14
+[13-Mar-2020 04:54:54 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'ControlEncomenda' not found in /home/customer/www/koopangola.com/public_html/App/views/admin.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/admin.php on line 14
+[13-Mar-2020 04:54:56 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'ControlEncomenda' not found in /home/customer/www/koopangola.com/public_html/App/views/admin.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/admin.php on line 14
+[13-Mar-2020 04:54:59 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'ControlEncomenda' not found in /home/customer/www/koopangola.com/public_html/App/views/admin.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/admin.php on line 14
+[13-Mar-2020 04:55:01 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'ControlEncomenda' not found in /home/customer/www/koopangola.com/public_html/App/views/admin.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/admin.php on line 14
+[13-Mar-2020 04:55:03 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'ControlEncomenda' not found in /home/customer/www/koopangola.com/public_html/App/views/admin.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/admin.php on line 14
+[13-Mar-2020 04:55:24 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'ControlEncomenda' not found in /home/customer/www/koopangola.com/public_html/App/views/admin.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/admin.php on line 14
+[13-Mar-2020 04:56:04 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'ControlEncomenda' not found in /home/customer/www/koopangola.com/public_html/App/views/admin.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/admin.php on line 14
+[13-Mar-2020 05:35:03 CST6CDT] PHP Parse error:  syntax error, unexpected 'include_once' (T_INCLUDE_ONCE) in /home/customer/www/koopangola.com/public_html/App/views/admin.php on line 16
+[13-Mar-2020 05:35:35 CST6CDT] PHP Parse error:  syntax error, unexpected 'include_once' (T_INCLUDE_ONCE) in /home/customer/www/koopangola.com/public_html/App/views/admin.php on line 16
+[13-Mar-2020 05:35:39 CST6CDT] PHP Parse error:  syntax error, unexpected 'include_once' (T_INCLUDE_ONCE) in /home/customer/www/koopangola.com/public_html/App/views/admin.php on line 16
+[13-Mar-2020 05:44:15 CST6CDT] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/customer/www/koopangola.com/public_html/App/views/admin.php on line 3
+[13-Mar-2020 06:02:15 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function entrarConta() in /home/customer/www/koopangola.com/public_html/App/models/Usuario.php:31
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php(14): Usuario->logar()
+#1 /home/customer/www/koopangola.com/public_html/App/views/entrar.php(27): ControlUsuario->login('932359808', '12345678')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/models/Usuario.php on line 31
+[13-Mar-2020 06:07:52 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::logar() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:14
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/entrar.php(27): ControlUsuario->login('932359808', '12345678')
+#1 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 14
+[13-Mar-2020 06:24:18 CST6CDT] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to ControlUsuario::entrarConta() must be of the type string, null given, called in /home/customer/www/koopangola.com/public_html/App/views/entrar.php on line 28 and defined in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/entrar.php(28): ControlUsuario->entrarConta('932359808', NULL)
+#1 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[13-Mar-2020 06:28:28 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method ControlUsuario::logar() in /home/customer/www/koopangola.com/public_html/App/views/entrar.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/entrar.php on line 28
+[13-Mar-2020 06:29:36 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::logar() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:14
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/entrar.php(28): ControlUsuario->login('932359808', '12345678')
+#1 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 14
+[13-Mar-2020 08:48:47 CST6CDT] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/customer/www/koopangola.com/public_html/App/models/Usuario.php on line 129
+[13-Mar-2020 08:50:57 CST6CDT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/customer/www/koopangola.com/public_html/App/models/Usuario.php on line 130
+[13-Mar-2020 09:15:14 CST6CDT] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) or const (T_CONST) in /home/customer/www/koopangola.com/public_html/App/models/Usuario.php on line 60
+[13-Mar-2020 09:16:09 CST6CDT] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) or const (T_CONST) in /home/customer/www/koopangola.com/public_html/App/models/Usuario.php on line 60
+[13-Mar-2020 09:39:36 CST6CDT] PHP Parse error:  syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/customer/www/koopangola.com/public_html/App/models/Usuario.php on line 73
+[13-Mar-2020 10:16:00 CST6CDT] PHP Parse error:  syntax error, unexpected ':' in /home/customer/www/koopangola.com/public_html/App/views/index.php on line 69
+[13-Mar-2020 10:48:01 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/koopangola.com/public_html/App/views/home.php on line 741
+[13-Mar-2020 10:58:06 CST6CDT] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in /home/customer/www/koopangola.com/public_html/App/views/home.php on line 31
+[14-Mar-2020 08:53:36 CST6CDT] PHP Fatal error:  Cannot redeclare loginCarrinho() (previously declared in /home/customer/www/koopangola.com/public_html/App/views/index.php:79) in /home/customer/www/koopangola.com/public_html/App/views/vercarrinho.php on line 49
+[14-Mar-2020 08:54:04 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function login() on null in /home/customer/www/koopangola.com/public_html/App/views/index.php:72
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/index.php on line 72
+[14-Mar-2020 09:31:17 CST6CDT] PHP Fatal error:  Cannot redeclare loginCarrinho() (previously declared in /home/customer/www/koopangola.com/public_html/App/views/index.php:81) in /home/customer/www/koopangola.com/public_html/App/views/vercarrinho.php on line 47
+[14-Mar-2020 09:32:29 CST6CDT] PHP Fatal error:  Cannot redeclare loginCarrinho() (previously declared in /home/customer/www/koopangola.com/public_html/App/views/index.php:81) in /home/customer/www/koopangola.com/public_html/App/views/vercarrinho.php on line 47
+[14-Mar-2020 09:34:39 CST6CDT] PHP Fatal error:  Cannot redeclare loginCarrinho() (previously declared in /home/customer/www/koopangola.com/public_html/App/views/index.php:81) in /home/customer/www/koopangola.com/public_html/App/views/vercarrinho.php on line 47
+[14-Mar-2020 09:40:16 CST6CDT] PHP Parse error:  syntax error, unexpected '?>' in /home/customer/www/koopangola.com/public_html/App/models/Usuario.php on line 76
+[14-Mar-2020 09:43:47 CST6CDT] PHP Fatal error:  Cannot redeclare loginCarrinho() (previously declared in /home/customer/www/koopangola.com/public_html/App/views/index.php:81) in /home/customer/www/koopangola.com/public_html/App/views/vercarrinho.php on line 47
+[14-Mar-2020 09:45:25 CST6CDT] PHP Fatal error:  Cannot redeclare loginCarrinho() (previously declared in /home/customer/www/koopangola.com/public_html/App/views/index.php:81) in /home/customer/www/koopangola.com/public_html/App/views/vercarrinho.php on line 46
+[14-Mar-2020 09:47:53 CST6CDT] PHP Fatal error:  Cannot redeclare loginCarrinho() (previously declared in /home/customer/www/koopangola.com/public_html/App/views/index.php:81) in /home/customer/www/koopangola.com/public_html/App/views/vercarrinho.php on line 46
+[14-Mar-2020 10:11:44 CST6CDT] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/customer/www/koopangola.com/public_html/App/models/Usuario.php on line 124
+[14-Mar-2020 10:12:29 CST6CDT] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/customer/www/koopangola.com/public_html/App/models/Usuario.php on line 126
+[14-Mar-2020 10:13:06 CST6CDT] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/customer/www/koopangola.com/public_html/App/models/Usuario.php on line 124
+[14-Mar-2020 10:13:47 CST6CDT] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/customer/www/koopangola.com/public_html/App/models/Usuario.php on line 124
+[14-Mar-2020 10:21:33 CST6CDT] PHP Fatal error:  Cannot redeclare loginCarrinho() (previously declared in /home/customer/www/koopangola.com/public_html/App/views/index.php:81) in /home/customer/www/koopangola.com/public_html/App/views/vercarrinho.php on line 46
+[14-Mar-2020 10:23:27 CST6CDT] PHP Fatal error:  Cannot redeclare loginCarrinho() (previously declared in /home/customer/www/koopangola.com/public_html/App/views/index.php:81) in /home/customer/www/koopangola.com/public_html/App/views/vercarrinho.php on line 47
+[14-Mar-2020 10:24:20 CST6CDT] PHP Fatal error:  Cannot redeclare loginCarrinho() (previously declared in /home/customer/www/koopangola.com/public_html/App/views/index.php:81) in /home/customer/www/koopangola.com/public_html/App/views/vercarrinho.php on line 47
+[14-Mar-2020 10:24:23 CST6CDT] PHP Fatal error:  Cannot redeclare loginCarrinho() (previously declared in /home/customer/www/koopangola.com/public_html/App/views/index.php:81) in /home/customer/www/koopangola.com/public_html/App/views/vercarrinho.php on line 47
+[14-Mar-2020 10:39:02 CST6CDT] PHP Fatal error:  Cannot redeclare loginCarrinho() (previously declared in /home/customer/www/koopangola.com/public_html/App/views/index.php:81) in /home/customer/www/koopangola.com/public_html/App/views/vercarrinho.php on line 47
+[14-Mar-2020 13:07:09 CST6CDT] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/customer/www/koopangola.com/public_html/App/views/perfil.php on line 15
+[14-Mar-2020 13:23:45 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(627): ControlUsuario->entrarConta('932359808', '12345678')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(352): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[14-Mar-2020 13:27:53 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(627): ControlUsuario->entrarConta('946850972', '123456789austin')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(352): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[14-Mar-2020 13:30:54 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(627): ControlUsuario->entrarConta('932359808', '12345678')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(352): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[14-Mar-2020 13:31:11 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(627): ControlUsuario->entrarConta('932359808', '12345678')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(352): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[14-Mar-2020 13:31:20 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(627): ControlUsuario->entrarConta('932359808', '12345678')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(352): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[14-Mar-2020 13:31:46 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(627): ControlUsuario->entrarConta('932359808', '00000000')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(352): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[14-Mar-2020 13:32:01 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(627): ControlUsuario->entrarConta('932359808', 'hjgygh')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(352): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[14-Mar-2020 13:36:22 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(627): ControlUsuario->entrarConta('932359808', '12345678')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(353): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[14-Mar-2020 13:36:39 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(627): ControlUsuario->entrarConta('932359808', '12345678')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(353): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[14-Mar-2020 13:37:20 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(627): ControlUsuario->entrarConta('932359808', '12345678')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(354): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[14-Mar-2020 13:37:32 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(627): ControlUsuario->entrarConta('932359808', '12345678')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(354): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[14-Mar-2020 13:39:35 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(627): ControlUsuario->entrarConta('932359808', '12345678')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(353): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[14-Mar-2020 13:40:51 CST6CDT] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting '{' in /home/customer/www/koopangola.com/public_html/App/views/index.php on line 83
+[14-Mar-2020 13:41:29 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(627): ControlUsuario->entrarConta('932359808', '12345678')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(354): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[14-Mar-2020 13:45:33 CST6CDT] PHP Parse error:  syntax error, unexpected '<' in /home/customer/www/koopangola.com/public_html/App/views/index.php on line 83
+[14-Mar-2020 13:46:24 CST6CDT] PHP Parse error:  syntax error, unexpected '<' in /home/customer/www/koopangola.com/public_html/App/views/index.php on line 83
+[14-Mar-2020 13:46:28 CST6CDT] PHP Parse error:  syntax error, unexpected '<' in /home/customer/www/koopangola.com/public_html/App/views/index.php on line 83
+[14-Mar-2020 13:47:10 CST6CDT] PHP Parse error:  syntax error, unexpected '<' in /home/customer/www/koopangola.com/public_html/App/views/index.php on line 83
+[14-Mar-2020 13:47:11 CST6CDT] PHP Parse error:  syntax error, unexpected '<' in /home/customer/www/koopangola.com/public_html/App/views/index.php on line 83
+[14-Mar-2020 13:48:05 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(627): ControlUsuario->entrarConta('932359808', '12345678')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(352): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[14-Mar-2020 13:48:15 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(627): ControlUsuario->entrarConta('932359808', '12345678')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(352): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[14-Mar-2020 13:48:47 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(627): ControlUsuario->entrarConta('932359808', '12345678')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(352): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[14-Mar-2020 13:53:53 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(627): ControlUsuario->entrarConta('932359808', '12345678')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(352): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[14-Mar-2020 13:54:28 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(627): ControlUsuario->entrarConta('932359808', '12345678')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(352): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[14-Mar-2020 13:54:58 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(627): ControlUsuario->entrarConta('932359808', '00000000')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(352): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[14-Mar-2020 13:55:13 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(627): ControlUsuario->entrarConta('946850972', 'Austin17')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(352): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[14-Mar-2020 13:57:26 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(627): ControlUsuario->entrarConta('932359808', '00000000588')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(352): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[14-Mar-2020 14:15:18 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(627): ControlUsuario->entrarConta('932359808', '00000000')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(352): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[15-Mar-2020 10:02:52 CST6CDT] PHP Parse error:  syntax error, unexpected ':' in /home/customer/www/koopangola.com/public_html/App/models/Cliente.php on line 231
+[15-Mar-2020 10:05:08 CST6CDT] PHP Parse error:  syntax error, unexpected ':' in /home/customer/www/koopangola.com/public_html/App/models/Cliente.php on line 231
+[15-Mar-2020 10:24:00 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(627): ControlUsuario->entrarConta('932359808', '00000000')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(352): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[15-Mar-2020 11:00:14 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(627): ControlUsuario->entrarConta('932359808', 'delfiaimetro199')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(352): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[15-Mar-2020 11:15:07 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(627): ControlUsuario->entrarConta('946850972', 'Austin17')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(352): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[15-Mar-2020 11:19:39 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(627): ControlUsuario->entrarConta('946850972', 'Austin17')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(352): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[15-Mar-2020 11:20:02 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(627): ControlUsuario->entrarConta('946850972', '123456789austin')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(352): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[15-Mar-2020 11:21:49 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(627): ControlUsuario->entrarConta('946850972', 'austin17')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(352): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[15-Mar-2020 11:22:11 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(627): ControlUsuario->entrarConta('946850972', 'Austin10')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(352): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[15-Mar-2020 11:30:15 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Encomenda::getOperacao() in /home/customer/www/koopangola.com/public_html/App/models/Encomenda.php:169
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/controllers/ControlEncomenda.php(36): Encomenda->visualizar()
+#1 /home/customer/www/koopangola.com/public_html/App/views/dadosencomenda.php(26): ControlEncomenda->visualizar('108', 1, '00001')
+#2 /home/customer/www/koopangola.com/public_html/App/views/admin.php(249): include('/home/customer/...')
+#3 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/models/Encomenda.php on line 169
+[15-Mar-2020 11:38:30 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(627): ControlUsuario->entrarConta('946850972', 'aaaaaaaa')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(352): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[15-Mar-2020 11:40:29 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(627): ControlUsuario->entrarConta('946850972', 'Austin17')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(352): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[15-Mar-2020 12:26:15 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(627): ControlUsuario->entrarConta('946850972', '123456789austin')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(352): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[15-Mar-2020 12:26:22 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'ControlProduto' not found in /home/customer/www/koopangola.com/public_html/App/views/prodadmin.php:3
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/admin.php(251): include()
+#1 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/prodadmin.php on line 3
+[15-Mar-2020 12:27:15 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Controlproduto::produto() in /home/customer/www/koopangola.com/public_html/App/views/prodadmin.php:48
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/admin.php(251): include()
+#1 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/prodadmin.php on line 48
+[15-Mar-2020 12:38:26 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method ControlCategoria::categoriasprod() in /home/customer/www/koopangola.com/public_html/App/views/prodActualizar.php:139
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/admin.php(251): include()
+#1 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/prodActualizar.php on line 139
+[15-Mar-2020 12:42:26 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method ControlCategoria::categoriasprod() in /home/customer/www/koopangola.com/public_html/App/views/prodActualizar.php:139
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/admin.php(251): include()
+#1 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/prodActualizar.php on line 139
+[15-Mar-2020 12:53:07 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method ControlCategoria::categoriasprod() in /home/customer/www/koopangola.com/public_html/App/views/prodActualizar.php:139
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/admin.php(251): include()
+#1 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/prodActualizar.php on line 139
+[15-Mar-2020 13:17:00 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(627): ControlUsuario->entrarConta('946850972', 'Austin17')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(355): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[15-Mar-2020 13:19:58 CST6CDT] PHP Parse error:  syntax error, unexpected '>', expecting end of file in /home/customer/www/koopangola.com/public_html/App/views/produto.php on line 115
+[15-Mar-2020 15:06:43 CST6CDT] PHP Recoverable fatal error:  Object of class SendGrid\Response could not be converted to string in /home/customer/www/koopangola.com/public_html/App/views/enviaremail.php on line 24
+[15-Mar-2020 15:07:21 CST6CDT] PHP Recoverable fatal error:  Object of class SendGrid\Response could not be converted to string in /home/customer/www/koopangola.com/public_html/App/views/enviaremail.php on line 24
+[15-Mar-2020 15:18:22 CST6CDT] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/customer/www/koopangola.com/public_html/App/views/produto.php on line 119
+[15-Mar-2020 15:32:58 CST6CDT] PHP Parse error:  syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/customer/www/koopangola.com/public_html/App/views/enviaremail.php on line 26
+[15-Mar-2020 15:36:53 CST6CDT] PHP Parse error:  syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/customer/www/koopangola.com/public_html/App/views/enviaremail.php on line 25
+[18-Mar-2020 08:54:10 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(627): ControlUsuario->entrarConta('946850972', '123456789austin')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(355): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[18-Mar-2020 11:27:51 CST6CDT] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ControlCategoria::categoriaPP(), 1 passed in /home/customer/www/koopangola.com/public_html/App/views/index.php on line 306 and exactly 2 expected in /home/customer/www/koopangola.com/public_html/App/controllers/ControlCategoria.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/index.php(306): ControlCategoria->categoriaPP(1)
+#1 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlCategoria.php on line 16
+[18-Mar-2020 11:30:46 CST6CDT] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ControlCategoria::categoriaPP(), 1 passed in /home/customer/www/koopangola.com/public_html/App/views/index.php on line 306 and exactly 2 expected in /home/customer/www/koopangola.com/public_html/App/controllers/ControlCategoria.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/index.php(306): ControlCategoria->categoriaPP(1)
+#1 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlCategoria.php on line 16
+[18-Mar-2020 11:32:24 CST6CDT] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ControlCategoria::categoriaPP(), 1 passed in /home/customer/www/koopangola.com/public_html/App/views/index.php on line 306 and exactly 2 expected in /home/customer/www/koopangola.com/public_html/App/controllers/ControlCategoria.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/index.php(306): ControlCategoria->categoriaPP(1)
+#1 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlCategoria.php on line 16
+[18-Mar-2020 11:32:26 CST6CDT] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ControlCategoria::categoriaPP(), 1 passed in /home/customer/www/koopangola.com/public_html/App/views/index.php on line 306 and exactly 2 expected in /home/customer/www/koopangola.com/public_html/App/controllers/ControlCategoria.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/index.php(306): ControlCategoria->categoriaPP(1)
+#1 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlCategoria.php on line 16
+[18-Mar-2020 11:32:49 CST6CDT] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ControlCategoria::categoriaPP(), 1 passed in /home/customer/www/koopangola.com/public_html/App/views/home.php on line 101 and exactly 2 expected in /home/customer/www/koopangola.com/public_html/App/controllers/ControlCategoria.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(101): ControlCategoria->categoriaPP(1)
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(344): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlCategoria.php on line 16
+[18-Mar-2020 11:36:57 CST6CDT] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ControlCategoria::categoriaPP(), 1 passed in /home/customer/www/koopangola.com/public_html/App/views/home.php on line 101 and exactly 2 expected in /home/customer/www/koopangola.com/public_html/App/controllers/ControlCategoria.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(101): ControlCategoria->categoriaPP(1)
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(346): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlCategoria.php on line 16
+[18-Mar-2020 11:37:07 CST6CDT] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ControlCategoria::categoriaPP(), 1 passed in /home/customer/www/koopangola.com/public_html/App/views/home.php on line 101 and exactly 2 expected in /home/customer/www/koopangola.com/public_html/App/controllers/ControlCategoria.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(101): ControlCategoria->categoriaPP(1)
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(346): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlCategoria.php on line 16
+[18-Mar-2020 11:40:44 CST6CDT] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ControlCategoria::categoriaPP(), 1 passed in /home/customer/www/koopangola.com/public_html/App/views/home.php on line 101 and exactly 2 expected in /home/customer/www/koopangola.com/public_html/App/controllers/ControlCategoria.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(101): ControlCategoria->categoriaPP(1)
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(355): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlCategoria.php on line 16
+[18-Mar-2020 11:40:47 CST6CDT] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ControlCategoria::categoriaPP(), 1 passed in /home/customer/www/koopangola.com/public_html/App/views/home.php on line 101 and exactly 2 expected in /home/customer/www/koopangola.com/public_html/App/controllers/ControlCategoria.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(101): ControlCategoria->categoriaPP(1)
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(355): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlCategoria.php on line 16
+[18-Mar-2020 11:40:54 CST6CDT] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ControlCategoria::categoriaPP(), 1 passed in /home/customer/www/koopangola.com/public_html/App/views/home.php on line 101 and exactly 2 expected in /home/customer/www/koopangola.com/public_html/App/controllers/ControlCategoria.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(101): ControlCategoria->categoriaPP(1)
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(346): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlCategoria.php on line 16
+[18-Mar-2020 11:41:11 CST6CDT] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ControlCategoria::categoriaPP(), 1 passed in /home/customer/www/koopangola.com/public_html/App/views/home.php on line 101 and exactly 2 expected in /home/customer/www/koopangola.com/public_html/App/controllers/ControlCategoria.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(101): ControlCategoria->categoriaPP(1)
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(346): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlCategoria.php on line 16
+[18-Mar-2020 11:43:50 CST6CDT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/customer/www/koopangola.com/public_html/App/views/subcategoria.php on line 43
+[18-Mar-2020 11:44:56 CST6CDT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/customer/www/koopangola.com/public_html/App/views/subcategoria.php on line 43
+[18-Mar-2020 11:46:18 CST6CDT] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home/customer/www/koopangola.com/public_html/App/views/subcategoria.php on line 45
+[18-Mar-2020 11:55:33 CST6CDT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/customer/www/koopangola.com/public_html/App/views/subcategoria.php on line 43
+[18-Mar-2020 11:55:52 CST6CDT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/customer/www/koopangola.com/public_html/App/views/subcategoria.php on line 43
+[18-Mar-2020 12:06:50 CST6CDT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/customer/www/koopangola.com/public_html/App/views/subcategoria.php on line 47
+[18-Mar-2020 12:07:06 CST6CDT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/customer/www/koopangola.com/public_html/App/views/subcategoria.php on line 47
+[18-Mar-2020 12:09:05 CST6CDT] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ControlCategoria::categoriaN(), 1 passed in /home/customer/www/koopangola.com/public_html/App/views/subcategoria.php on line 50 and exactly 2 expected in /home/customer/www/koopangola.com/public_html/App/controllers/ControlCategoria.php:11
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/subcategoria.php(50): ControlCategoria->categoriaN('1')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(346): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlCategoria.php on line 11
+[18-Mar-2020 12:15:28 CST6CDT] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function ControlCategoria::categoriaN(), 1 passed in /home/customer/www/koopangola.com/public_html/App/views/subcategoria.php on line 51 and exactly 2 expected in /home/customer/www/koopangola.com/public_html/App/controllers/ControlCategoria.php:11
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/subcategoria.php(51): ControlCategoria->categoriaN('1')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(346): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlCategoria.php on line 11
+[18-Mar-2020 12:20:09 CST6CDT] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/customer/www/koopangola.com/public_html/App/views/subcategoria.php on line 48
+[18-Mar-2020 12:21:03 CST6CDT] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home/customer/www/koopangola.com/public_html/App/views/subcategoria.php on line 48
+[18-Mar-2020 12:25:49 CST6CDT] PHP Parse error:  syntax error, unexpected '""' (T_CONSTANT_ENCAPSED_STRING) in /home/customer/www/koopangola.com/public_html/App/views/subcategoria.php on line 44
+[18-Mar-2020 12:26:57 CST6CDT] PHP Parse error:  syntax error, unexpected '''' (T_CONSTANT_ENCAPSED_STRING) in /home/customer/www/koopangola.com/public_html/App/views/subcategoria.php on line 44
+[18-Mar-2020 12:42:33 CST6CDT] PHP Fatal error:  Uncaught Error: Method name must be a string in /home/customer/www/koopangola.com/public_html/App/views/subcategoria.php:42
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/index.php(346): include()
+#1 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/subcategoria.php on line 42
+[18-Mar-2020 12:44:57 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/koopangola.com/public_html/App/views/subcategoria.php on line 102
+[18-Mar-2020 13:23:20 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(643): ControlUsuario->entrarConta('946850972', 'Austin17')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(355): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[19-Mar-2020 07:14:49 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(643): ControlUsuario->entrarConta('946850972', '123456789austin')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(355): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[20-Mar-2020 03:07:01 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(643): ControlUsuario->entrarConta('946850972', 'Austin17')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(355): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[20-Mar-2020 04:33:57 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(643): ControlUsuario->entrarConta('932359808', 'delfiaimetro199')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(355): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[20-Mar-2020 04:34:28 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(643): ControlUsuario->entrarConta('946850972', '123456789austin')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(355): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[21-Mar-2020 10:51:51 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(643): ControlUsuario->entrarConta('946850972', '123456789austin')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(355): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[21-Mar-2020 11:22:15 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(643): ControlUsuario->entrarConta('946850972', '123456789austin')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(355): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[21-Mar-2020 11:22:51 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(643): ControlUsuario->entrarConta('946850972', '123456789austin')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(355): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[21-Mar-2020 11:30:25 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(643): ControlUsuario->entrarConta('946850972', '123456789austin')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(355): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[21-Mar-2020 11:35:28 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(643): ControlUsuario->entrarConta('946850972', '123456789austin')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(355): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[21-Mar-2020 11:36:42 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(643): ControlUsuario->entrarConta('946850972', '123456789austin')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(355): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[21-Mar-2020 11:37:23 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(643): ControlUsuario->entrarConta('946850972', '123456789austin')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(355): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[21-Mar-2020 11:38:05 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(643): ControlUsuario->entrarConta('946850972', '123456789austin')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(355): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[21-Mar-2020 11:39:24 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(643): ControlUsuario->entrarConta('946850972', '123456789Austin')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(355): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[21-Mar-2020 11:39:42 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(643): ControlUsuario->entrarConta('946850972', '123456789austin')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(355): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[21-Mar-2020 11:45:51 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(643): ControlUsuario->entrarConta('946850972', 'Austin17')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(355): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[23-Mar-2020 10:03:11 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(643): ControlUsuario->entrarConta('946850972', '123456789austin')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(355): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[23-Mar-2020 10:03:15 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(643): ControlUsuario->entrarConta('946850972', '123456789austin')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(355): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[23-Mar-2020 10:13:44 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(643): ControlUsuario->entrarConta('946850972', 'Austin178')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(355): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[23-Mar-2020 10:14:08 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(643): ControlUsuario->entrarConta('946850972', 'Austin17')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(355): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[23-Mar-2020 10:18:15 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Usuario::entrarConta() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php:16
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/home.php(643): ControlUsuario->entrarConta('932359808', 'delfiaimetro199')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(355): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlUsuario.php on line 16
+[23-Mar-2020 10:18:38 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'ControlLeilao' not found in /home/customer/www/koopangola.com/public_html/App/views/verleilao.php:3
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/admin.php(368): include()
+#1 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/views/verleilao.php on line 3
+[23-Mar-2020 13:06:31 CST6CDT] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/customer/www/koopangola.com/public_html/App/models/Slider.php on line 164
+[23-Mar-2020 13:08:05 CST6CDT] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/customer/www/koopangola.com/public_html/App/models/Slider.php on line 164
+[23-Mar-2020 13:08:40 CST6CDT] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/customer/www/koopangola.com/public_html/App/models/Slider.php on line 164
+[23-Mar-2020 13:08:43 CST6CDT] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/customer/www/koopangola.com/public_html/App/models/Slider.php on line 164
+[24-Mar-2020 01:53:22 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/koopangola.com/public_html/App/views/actfotoslider.php on line 108
+[05-Apr-2020 13:11:55 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Cliente::encontrarCliente() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlCliente.php:51
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/esqueceupasse.php(5): ControlCliente->encontrarCliente('932359808')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(342): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlCliente.php on line 51
+[05-Apr-2020 13:12:40 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Cliente::encontrarCliente() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlCliente.php:51
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/esqueceupasse.php(5): ControlCliente->encontrarCliente('932359808')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(342): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlCliente.php on line 51
+[05-Apr-2020 13:12:54 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Cliente::encontrarCliente() in /home/customer/www/koopangola.com/public_html/App/controllers/ControlCliente.php:51
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/views/esqueceupasse.php(5): ControlCliente->encontrarCliente('932359808')
+#1 /home/customer/www/koopangola.com/public_html/App/views/index.php(342): include('/home/customer/...')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/controllers/ControlCliente.php on line 51
+[05-Apr-2020 13:14:59 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on array in /home/customer/www/koopangola.com/public_html/App/models/Cliente.php:267
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/controllers/ControlCliente.php(51): Cliente->encontrarCliente()
+#1 /home/customer/www/koopangola.com/public_html/App/views/esqueceupasse.php(5): ControlCliente->encontrarCliente('932359808')
+#2 /home/customer/www/koopangola.com/public_html/App/views/index.php(342): include('/home/customer/...')
+#3 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/models/Cliente.php on line 267
+[05-Apr-2020 13:16:43 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on array in /home/customer/www/koopangola.com/public_html/App/models/Cliente.php:267
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/controllers/ControlCliente.php(51): Cliente->encontrarCliente()
+#1 /home/customer/www/koopangola.com/public_html/App/views/esqueceupasse.php(5): ControlCliente->encontrarCliente('932359808')
+#2 /home/customer/www/koopangola.com/public_html/App/views/index.php(342): include('/home/customer/...')
+#3 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/models/Cliente.php on line 267
+[05-Apr-2020 13:35:12 CST6CDT] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /home/customer/www/koopangola.com/public_html/App/models/Cliente.php on line 274
+[20-Apr-2020 04:50:53 CST6CDT] PHP Parse error:  syntax error, unexpected 'ok' (T_STRING), expecting ')' in /home/customer/www/koopangola.com/public_html/App/models/Cliente.php on line 154
+[20-Apr-2020 09:07:26 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Cliente::getTelefonealter() in /home/customer/www/koopangola.com/public_html/App/models/Cliente.php:83
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/controllers/ControlCliente.php(22): Cliente->criarConta()
+#1 /home/customer/www/koopangola.com/public_html/App/views/criarconta.php(32): ControlCliente->criarConta('Meuryvalda', 'Jovany', '1888-04-16', 'Femenino', '963852545', 'Mutamba', 'EEEEEEEEE', 'aeva@hotmail.co...', '00000000')
+#2 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/models/Cliente.php on line 83
+[22-Apr-2020 03:52:39 CST6CDT] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/customer/www/koopangola.com/public_html/App/models/Cliente.php:298
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/models/Cliente.php(129): enviarDadosClienteEmail('Jose Carvalho', 'Mauricio', '1997-04-17', 'Masculino', '963286546', 'Morro Bento ', '21 de janeiro ', 'anto789@hotmail...')
+#1 /home/customer/www/koopangola.com/public_html/App/controllers/ControlCliente.php(22): Cliente->criarConta()
+#2 /home/customer/www/koopangola.com/public_html/App/views/criarconta.php(32): ControlCliente->criarConta('Jose Carvalho', 'Mauricio', '1997-04-17', 'Masculino', '963286546', 'Morro Bento ', '21 de janeiro ', 'anto789@hotmail...', '00000000')
+#3 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/models/Cliente.php on line 298
+[23-Apr-2020 08:01:00 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on null in /home/customer/www/koopangola.com/public_html/App/models/Encomenda.php:243
+Stack trace:
+#0 /home/customer/www/koopangola.com/public_html/App/models/Encomenda.php(218): Encomenda->enviar()
+#1 /home/customer/www/koopangola.com/public_html/App/models/Encomenda.php(148): Encomenda->enviarEmailEncomenda()
+#2 /home/customer/www/koopangola.com/public_html/App/models/Encomenda.php(119): Encomenda->produtoPrestacao(Object(PDO))
+#3 /home/customer/www/koopangola.com/public_html/App/models/Encomenda.php(100): Encomenda->cadastrarProdutos(Object(PDO), '161')
+#4 /home/customer/www/koopangola.com/public_html/App/controllers/ControlEncomenda.php(18): Encomenda->encomendar()
+#5 /home/customer/www/koopangola.com/public_html/App/views/finalizar.php(24): ControlEncomenda->encomendar(114, Array, 'eeee', Array, Array, Array)
+#6 /home/customer/www/koopangola.com/public_html/App/views/index.php(361): include('/home/customer/...')
+#7 {main}
+  thrown in /home/customer/www/koopangola.com/public_html/App/models/Encomenda.php on line 243
+[23-Apr-2020 08:40:14 CST6CDT] PHP Parse error:  syntax error, unexpected '$nome' (T_VARIABLE) in /home/customer/www/koopangola.com/public_html/App/models/Encomenda.php on line 242
+[23-Apr-2020 08:41:01 CST6CDT] PHP Parse error:  syntax error, unexpected '$nome' (T_VARIABLE) in /home/customer/www/koopangola.com/public_html/App/models/Encomenda.php on line 242

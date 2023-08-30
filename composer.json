@@ -1,0 +1,18 @@
+{
+    "name": "koop/composer",
+    "authors": [
+        {
+            "name": "TecnoSoft",
+            "email": "tecnosoft@hotmail.com"
+        }
+    ],
+    "require": {
+        
+    },
+    "autoload": {
+        "psr-4": {
+            "Control\\": "App/Controllers"
+        }
+    }
+    
+}

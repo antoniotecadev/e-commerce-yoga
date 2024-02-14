@@ -1,8 +1,6 @@
 # E-Commerce-Yoga (KOOP)
 <a id="e-commerce-yoga"></a>
 ![Home-capa](https://github.com/antonioteca/antonioteca/blob/main/E-Commerce-Yoga/Imagens/e-commerce-yoga-2023-08-30%20(14).png)
-![Home-produto](https://github.com/antonioteca/antonioteca/blob/main/E-Commerce-Yoga/Imagens/e-commerce-yoga-2023-08-30%20(16).png)
-
 [Ver mais](https://github.com/antonioteca/antonioteca/tree/main/E-Commerce-Yoga/Imagens)  
 
 ## Descrição

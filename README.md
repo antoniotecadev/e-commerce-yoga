@@ -6,13 +6,13 @@
 ## Descrição
 
 E-Commerce-Yoga (KOOP) é uma loja electrônica para vendas de produtos diversos.     
-
+[![My Skills](https://skillicons.dev/icons?i=js, vscode)](https://skillicons.dev)
 ## Ferramentas Utilizadas
 - Visual Studio Code
 - Sublime Text
 - Bootstrap
 - HTML
-[![My Skills](https://skillicons.dev/icons?i=js)](https://skillicons.dev) JavaScript
+- JavaScript
 - PHP
 - MySQL
 

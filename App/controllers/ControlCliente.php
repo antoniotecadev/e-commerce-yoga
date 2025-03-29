@@ -5,7 +5,7 @@ class ControlCliente
     private $cl;
     public function __construct()
     {
-        $this->cl = new Cliente(); 
+        $this->cl = new Cliente();
     }
 
     public function criarConta($nome, $sobnome, $data, $sexo, $tel, $bairro, $rua, $email, $pass)
@@ -36,19 +36,21 @@ class ControlCliente
         $this->cl->setId($_SESSION['idcliente']);
         $this->cl->actDadosCli();
     }
-    public function actpass($pass, $pass1, $pass2){
+    public function actpass($pass, $pass1, $pass2)
+    {
         if (!isset($_SESSION)) :
             session_start();
         endif;
-        $this->cl->setId($_SESSION['idcliente']);        
-        return $this->cl->actPalavraPasse($pass, $pass1, $pass2);        
+        $this->cl->setId($_SESSION['idcliente']);
+        return $this->cl->actPalavraPasse($pass, $pass1, $pass2);
     }
 
-    public function encontrarCliente($telemail){
+    public function encontrarCliente($telemail)
+    {
         $this->cl->encontrarCliente($telemail);
     }
-    public function buscarCliente(){
+    public function buscarCliente()
+    {
         return $this->cl->buscarCliente();
     }
-    
 }

@@ -61,31 +61,31 @@ class Cliente extends Pessoa
         ) :
 
             if (!preg_match("/^[a-z\á-ú\à-ù\ã-õ\â-û\Á-Ú\À-Ù\Ã-Õ\Â-Û ]+$/i", $this->getNome())) :
-                $this->alert("Falha!", "Nome não é válido <strong>Não introduzir</strong> 0-9 :; ~ ` ! @ # $ % & ( ) - _ = + / < > , .? [ ]{ } * | \\, etc.", "alert-warning", "btn-warning", "erro.png", "javascript:history.go(-1)", "voltar");
+                $this->alert("Falha!", "Nome não é válido <strong>Não introduzir</strong> 0-9 :; ~ ` ! @ # $ % & ( ) - _ = + / < > , .? [ ]{ } * | \\, etc.", "alert-warning", "btn-warning", "erro.png", "javascript:history.go(-1)", "Retificar");
             elseif (!preg_match("/^[a-z\á-ú\à-ù\ã-õ\â-û\Á-Ú\À-Ù\Ã-Õ\Â-Û ]+$/i", $this->getSobrenome())) :
-                $this->alert("Falha!", "Sobrenome não é válido <strong>Não introduzir</strong> 0-9 :; ~ ` ! @ # $ % & ( ) - _ = + / < > , .? [ ]{ } * | \\, etc.", "alert-warning", "btn-warning", "erro.png", "javascript:history.go(-1)", "voltar");
+                $this->alert("Falha!", "Sobrenome não é válido <strong>Não introduzir</strong> 0-9 :; ~ ` ! @ # $ % & ( ) - _ = + / < > , .? [ ]{ } * | \\, etc.", "alert-warning", "btn-warning", "erro.png", "javascript:history.go(-1)", "Retificar");
             elseif (!preg_match("/^[0-9]+$/i", $this->getTelefone())) :
-                $this->alert("Falha!", "Número de telefone não é válido <strong>Não introduzir</strong> letras :; ~ ` ! @ # $ % & ( ) - _ = + / < > , .? [ ]{ } * | \\ etc.", "alert-warning", "btn-warning", "erro.png", "javascript:history.go(-1)", "voltar");
+                $this->alert("Falha!", "Número de telefone não é válido <strong>Não introduzir</strong> letras :; ~ ` ! @ # $ % & ( ) - _ = + / < > , .? [ ]{ } * | \\ etc.", "alert-warning", "btn-warning", "erro.png", "javascript:history.go(-1)", "Retificar");
             elseif (!preg_match("/^[a-z0-9\á-ú\à-ù\ã-õ\â-û\Á-Ú\À-Ù\Ã-Õ\Â-Û\:\,\.\- ]+$/i", $this->getBairro())) :
-                $this->alert("Falha!", "Bairro não é válido <strong>Não introduzir</strong> ; ~ ` ! @ # $ % & ( ) - _ = + / < > ? [ ]{ } * | \\ etc", "alert-warning", "btn-warning", "erro.png", "javascript:history.go(-1)", "voltar");
+                $this->alert("Falha!", "Bairro não é válido <strong>Não introduzir</strong> ; ~ ` ! @ # $ % & ( ) - _ = + / < > ? [ ]{ } * | \\ etc", "alert-warning", "btn-warning", "erro.png", "javascript:history.go(-1)", "Retificar");
             elseif (!preg_match("/^[a-z0-9\á-ú\à-ù\ã-õ\â-û\Á-Ú\À-Ù\Ã-Õ\Â-Û\:\,\.\- ]+$/i", $this->getRua())) :
-                $this->alert("Falha!", "Rua não é válida <strong>Não introduzir</strong> :; ~ ` ! @ # $ % & ( ) _ = + / < > ? [ ]{ } * | \\ etc", "alert-warning", "btn-warning", "erro.png", "javascript:history.go(-1)", "voltar");
+                $this->alert("Falha!", "Rua não é válida <strong>Não introduzir</strong> :; ~ ` ! @ # $ % & ( ) _ = + / < > ? [ ]{ } * | \\ etc", "alert-warning", "btn-warning", "erro.png", "javascript:history.go(-1)", "Retificar");
             elseif (!preg_match("/^[a-z@0-9.\-\_]+$/i", $this->getEmail())) :
-                $this->alert("Falha!", "E-mail não é válido <strong>Não introduzir</strong> :; ~ ` ! # $ % & ( ) = + / < > , ? [ ]{ } * | \\ etc", "alert-warning", "btn-warning", "erro.png", "javascript:history.go(-1)", "voltar");
+                $this->alert("Falha!", "E-mail não é válido <strong>Não introduzir</strong> :; ~ ` ! # $ % & ( ) = + / < > , ? [ ]{ } * | \\ etc", "alert-warning", "btn-warning", "erro.png", "javascript:history.go(-1)", "Retificar");
             elseif (!preg_match("/^[a-z0-9]+$/i", $this->getPalavrapasse())) :
-                $this->alert("Falha!", "Palavra - passe não é válida <strong>Não introduzir</strong> :; ~ ` ! @ # $ % & ( ) - _ = + / < > , .? [ ]{ } * | \\ etc", "alert-warning", "btn-warning", "erro.png", "javascript:history.go(-1)", "voltar");
+                $this->alert("Falha!", "Palavra - passe não é válida <strong>Não introduzir</strong> :; ~ ` ! @ # $ % & ( ) - _ = + / < > , .? [ ]{ } * | \\ etc", "alert-warning", "btn-warning", "erro.png", "javascript:history.go(-1)", "Retificar");
             elseif (strlen($this->getNome()) < 5) : //Contar a quantidade de caracteres
-                $this->alert("Falha!", "<strong>" . $this->getNome() . "</strong> Nome muito curto ", "alert-warning", "btn-warning", "erro.png", "javascript:history.go(-1)", "voltar");
+                $this->alert("Falha!", "<strong>" . $this->getNome() . "</strong> Nome muito curto ", "alert-warning", "btn-warning", "erro.png", "javascript:history.go(-1)", "Retificar");
             elseif (strlen($this->getSobrenome()) < 5) : //Contar a quantidade de caracteres
-                $this->alert("Falha!", "<strong>" . $this->getSobrenome() . "</strong> Sobrenome muito curto  ", "alert-warning", "btn-warning", "erro.png", "javascript:history.go(-1)", "voltar");
+                $this->alert("Falha!", "<strong>" . $this->getSobrenome() . "</strong> Sobrenome muito curto  ", "alert-warning", "btn-warning", "erro.png", "javascript:history.go(-1)", "Retificar");
             elseif (strlen($this->getTelefone()) != 9) : //Contar a quantidade de caracteres
-                $this->alert("Falha!", "Número de telefone deve ter 9 dígitos", "alert-warning", "btn-warning", "erro.png", "javascript:history.go(-1)", "voltar");
+                $this->alert("Falha!", "Número de telefone deve ter 9 dígitos", "alert-warning", "btn-warning", "erro.png", "javascript:history.go(-1)", "Retificar");
             elseif (strlen($this->getPalavrapasse()) < 6) : // Verificar palavra passe
-                $this->alert("Falha!", "Palavra - passe muito curta", "alert-warning", "btn-warning", "erro.png", "javascript:history.go(-1)", "voltar");
+                $this->alert("Falha!", "Palavra - passe muito curta", "alert-warning", "btn-warning", "erro.png", "javascript:history.go(-1)", "Retificar");
             elseif ($idade < 16) :
-                $this->alert("Erro!", "Não é permitido criar conta à menor de <strong>16</strong> anos", "alert-danger", "btn-danger", "erro.png", "javascript:history.go(-1)", "voltar");
+                $this->alert("Erro!", "Não é permitido criar conta à menor de <strong>16</strong> anos", "alert-danger", "btn-danger", "erro.png", "javascript:history.go(-1)", "Retificar");
             elseif (!filter_var($this->getEmail(), FILTER_VALIDATE_EMAIL)) :
-                $this->alert("Erro!", "E-mail inválido", "alert-danger", "btn-danger", "erro.png", "javascript:history.go(-1)", "voltar");
+                $this->alert("Erro!", "E-mail inválido", "alert-danger", "btn-danger", "erro.png", "javascript:history.go(-1)", "Retificar");
             else :
                 // Limpar símbolos
                 $this->setNome(preg_replace('/[^[a-z]_]/', ' ', $this->getNome()));
@@ -98,18 +98,30 @@ class Cliente extends Pessoa
                 $sql = "INSERT INTO cliente (nome,sobrenome,datanascimento,sexo,telefone1,bairro,rua,email,pass) VALUES
             (?,?,?,?,?,?,?,?,?)";
 
-                $pdo = Conexao::getConnect();
-                $inserir = $pdo->prepare($sql);
-                $inserir->bindValue(1, $this->getNome());
-                $inserir->bindValue(2, $this->getSobrenome());
-                $inserir->bindValue(3, $this->getDatanascimento());
-                $inserir->bindValue(4, $this->getSexo());
-                $inserir->bindValue(5, $this->getTelefone());
-                $inserir->bindValue(6, $this->getBairro());
-                $inserir->bindValue(7, $this->getRua());
-                $inserir->bindValue(8, $this->getEmail());
-                $inserir->bindValue(9, md5(md5($this->getPalavrapasse())));
-                $inserir->execute();
+                try {
+                    $pdo = Conexao::getConnect();
+                    $inserir = $pdo->prepare($sql);
+                    $inserir->bindValue(1, $this->getNome());
+                    $inserir->bindValue(2, $this->getSobrenome());
+                    $inserir->bindValue(3, $this->getDatanascimento());
+                    $inserir->bindValue(4, $this->getSexo());
+                    $inserir->bindValue(5, $this->getTelefone());
+                    $inserir->bindValue(6, $this->getBairro());
+                    $inserir->bindValue(7, $this->getRua());
+                    $inserir->bindValue(8, $this->getEmail());
+                    $inserir->bindValue(9, md5(md5($this->getPalavrapasse())));
+                    $inserir->execute();
+                } catch (PDOException $e) {
+                    if ($e->getCode() == 23000) { // Código para violação de restrição de integridade
+                        if (strpos($e->getMessage(), 'telefone1_UNIQUE') !== false)
+                            $this->alert("Erro!", "<p class='text-center'>O número de telefone " . $this->getTelefone() . ", já está registado. Por favor, use um número diferente.</p>", "alert-warning", "btn-warning", "erro.png", "javascript:history.go(-1)", "RETIFICAR");
+                        elseif (strpos($e->getMessage(), 'email_UNIQUE') !== false || strpos($e->getMessage(), "for key 'email'") !== false)
+                            $this->alert("Erro!", "<p class='text-center'>O endereço de email <b>" . $this->getEmail() . "</b>,  já está registado. Por favor, use um email diferente.</p>", "alert-warning", "btn-warning", "erro.png", "javascript:history.go(-1)", "RETIFICAR");
+                    } else
+                        $this->alert("Falha!", "<p class='text-center'>Ocorreu um erro ao registar. Por favor, tente novamente.</p>", "alert-warning", "btn-warning", "erro.png", "javascript:history.go(-1)", "TENTAR NOVAMENTE");
+                    return;
+                }
+
                 $this->setId($pdo->lastInsertId()); // Valor do ID incrementado automaticamente para uma linha acabada de inserir na tabela produto
                 if ($inserir->rowCount()) :
                     $consultar = Conexao::getConnect()->prepare('SELECT  idcliente, nome, sobrenome, datanascimento, sexo,telefone1,bairro,rua,email FROM cliente WHERE idcliente = ?');
@@ -138,7 +150,7 @@ class Cliente extends Pessoa
                         );
                     endif;
                 else :
-                    $this->alert("Erro!", "Verifique seu número de telefone ou email, eles devem estar a ser usado por um outro cliente", "alert-danger", "btn-danger", "erro.png", "javascript:history.go(-1)", "voltar");
+                    $this->alert("Erro!", "Verifique seu número de telefone ou email, eles devem estar a ser usado por um outro cliente", "alert-danger", "btn-danger", "erro.png", "javascript:history.go(-1)", "Voltar a tentar");
                 endif; // Fim do insert->rowCount
             endif; // fim preg_match
         endif; // fim empty
@@ -165,7 +177,7 @@ class Cliente extends Pessoa
         elseif (strlen($this->getTelefone()) != 9) : //Contar a quantidade de caracteres
             $this->alert("Falha!", "Número de telefone deve ter 9 dígitos", "alert-warning", "btn-warning", "erro.png", "", "OK");
         elseif ($idade < 16) :
-            $this->alert("Erro!", "Não é permitido idade menor que <strong>16</strong> anos", "alert-danger", "btn-danger", "erro.png", "javascript:history.go(-1)", "voltar");
+            $this->alert("Erro!", "Não é permitido idade menor que <strong>16</strong> anos", "alert-danger", "btn-danger", "erro.png", "javascript:history.go(-1)", "Retificar");
         else :
             $sql = 'UPDATE `cliente` SET `nome`=?,`sobrenome`=?,`datanascimento`=?,`sexo`=?,`telefone1`=?,`bairro`=?,`rua`=? WHERE idcliente = ?';
             $actualizar = Conexao::getConnect()->prepare($sql);
@@ -250,7 +262,7 @@ class Cliente extends Pessoa
         // $encontrar->fetchAll(\PDO::FETCH_ASSOC);
         else :
         endif;
-    } 
+    }
 
     public function alert($titulo, $mensagem, $tipo, $btn, $img, $href, $op)
     { // Função para chamar o alert
@@ -271,7 +283,8 @@ class Cliente extends Pessoa
         </div>';
     }
 
-    public function buscarCliente(){ // Método para buscar Clientes
+    public function buscarCliente()
+    { // Método para buscar Clientes
         $cliente = Conexao::getConnect()->prepare("SELECT *FROM cliente ORDER BY idcliente DESC");
         $cliente->execute();
         return $cliente->fetchAll(\PDO::FETCH_ASSOC);
@@ -353,4 +366,3 @@ function enviarDadosClienteEmail($nome, $sobrenome, $datanascimento, $sexo, $tel
     if ($envio) {
     }
 }
-

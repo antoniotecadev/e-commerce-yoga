@@ -17,6 +17,22 @@ else :
 endif;
 
 
+function alert($titulo, $mensagem, $tipo, $icon, $btn, $n1, $n2, $px, $href)
+{
+    echo '<div class="container">
+        <form action="">
+            <div class = "row">
+                <div class = "col-md-' . $n1 . ' col-md-offset-' . $n2 . ' col-md-offset+5">
+                    <div class="alert ' . $tipo . ' fade in">
+                        <img src="../img/alert/' . $icon . '" alt="">
+                        <strong>' . $titulo . '</strong> ' . $mensagem . '
+                        <a href="' . $href . '" class="btn ' . $btn . '" data-dismiss="alert" style="margin-left:' . $px . '">ok</a>
+                    </div>
+                </div>
+            </div>
+            </form>
+        </div>';
+}
 ?>
 
 <div class="row" style="margin-top:130px;">
@@ -26,7 +42,10 @@ endif;
     $precoac = "";
     $precoat = 0;
     $desc = "";
-    if (isset($_POST['btn'])) { // Cadastrar produtos
+    if (isset($_POST['btn'])) {
+        alert("Informação!", "<h6 class='text-center' style='margin-left: 40px'>Desculpe! você esta em uma versão de teste e não vai poder cadastrar um produto.</h6>", "alert-info", "info.png", "btn-info", "6", "3", "450px", "");
+    }
+    /*if (isset($_POST['btn'])) { // Cadastrar produtos
         $cp->cadprodNormal($_POST['nome'], $_POST['quantidade'], $_POST['precoac'], $_POST['estado'], $_POST['precoat'], $_POST['descricao'], $_POST['categoria'], $idusuario, $_FILES['foto']);
         $n = $_POST['nome'];
         $q = $_POST['quantidade'];
@@ -36,7 +55,7 @@ endif;
     }
     if (isset($_POST['btnadd'])) { // Adicionar mais foto ao produto
         $cp->cadMaisFoto($_FILES['maisfoto'], $_GET['idprod']);
-    }
+    }*/
     ?>
     <div class="col-lg-12">
         <div class="panel panel-default">

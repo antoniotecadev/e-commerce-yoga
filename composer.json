@@ -2,8 +2,8 @@
     "name": "koop/composer",
     "authors": [
         {
-            "name": "TecnoSoft",
-            "email": "tecnosoft@hotmail.com"
+            "name": "António Teca",
+            "email": "antonioteca@hotmail.com"
         }
     ],
     "require": {

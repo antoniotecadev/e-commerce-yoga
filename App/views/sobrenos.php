@@ -181,49 +181,16 @@
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-md-2">
-                    <img src="../img/sobre-nos/evander.jpg" class="img-circle img-thumbnail" alt="">
-                    <p style="color:gray"><strong>Evander Dos Santos</strong></p>
-                    <h6 style="color:tomato;">CEO e Analista de sistema</h6>
-                </div>
-                <div class="col-md-2">
-                    <img src="../img/sobre-nos/iracelma.jpg" class="img-circle img-thumbnail" alt="">
-                    <p style="color:gray"><strong>Iracelma Amaral</strong></p>
-                    <h6 style="color:tomato;">DBA</h6>
-                </div>
-                <div class="col-md-2">
-                    <img src="../img/sobre-nos/teca.jpg" class="img-circle img-thumbnail" alt="">
+                <div class="col-md-6">
+                    <img src="../img/sobre-nos/teca.png" class="img-circle img-thumbnail" alt="">
                     <p style="color:gray"><strong>António Teca</strong></p>
-                    <h6 style="color:tomato;">Programador e DBA</h6>
+                    <h6 style="color:black;">Desenvolvedor Fullstack</h6>
                 </div>
-                <div class="col-md-2">
-                    <img src="../img/sobre-nos/austin.jpg" class="img-circle img-thumbnail" alt="">
+                <div class="col-md-6">
+                    <img src="../img/sobre-nos/austin.png" class="img-circle img-thumbnail" alt="">
                     <p style="color:gray"><strong>Austin Joaquim</strong></p>
-                    <h6 style="color:tomato;">Programador e DBA</h6>
+                    <h6 style="color:black;">Desenvolvedor Fullstack</h6>
                 </div>
-                <div class="col-md-2">
-                    <img src="../img/sobre-nos/moreno.jpg" class="img-circle img-thumbnail" alt="">
-                    <p style="color:gray"><strong>João Nkosi</strong></p>
-                    <h6 style="color:tomato;">Director de Marketing</h6>
-                </div>
-                <div class="col-md-2">
-                    <img src="../img/sobre-nos/osvaldo.jpg" class="img-circle img-thumbnail" alt="">
-                    <p style="color:gray"><strong>Osvaldo Torres</strong></p>
-                    <h6 style="color:tomato;">Director de operações</h6>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-2 col-md-offset-4">
-                    <img src="../img/sobre-nos/debora.jpg" class="img-circle img-thumbnail" alt="">
-                    <p style="color:gray"><strong>Débora Carvalho</strong></p>
-                    <h6 style="color:tomato;">Designe</h6>
-                </div>
-                <div class="col-md-2">
-                    <img src="../img/sobre-nos/ariete.jpg" class="img-circle img-thumbnail" alt="">
-                    <p style="color:gray"><strong>Arieth Chiyoh</strong></p>
-                    <h6 style="color:tomato;">Sub-Directora de operações</h6>
-                </div>
-            </div>
         </div>
         <!-- /container -->
     </div>

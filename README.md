@@ -1,25 +1,57 @@
-Thanks for downloading this theme!
+# E-Commerce-Yoga (KOOP)
+<a id="e-commerce-yoga"></a>
+![Home-capa](https://github.com/antonioteca/antonioteca/blob/main/E-Commerce-Yoga/Imagens/e-commerce-yoga-2023-08-30%20(14).png)
+[Ver mais](https://github.com/antonioteca/antonioteca/tree/main/E-Commerce-Yoga/Imagens)  
 
-## Other Useful Links
+## Descrição
 
-**ThemeWagon** is a great source for downloading free HTML templates built with the latest technology.
+E-Commerce-Yoga (KOOP) é uma loja electrônica para vendas de produtos diversos.     
 
-To download free templates, follow this link: https://themewagon.com/theme_tag/free/
+## Ferramentas Utilizadas
+[![My Skills](https://skillicons.dev/icons?i=vscode,bootstrap,html,css,js,php,mysql)](https://skillicons.dev)
 
-Besides that, you can buy our premium templates for making your web development experience unforgettable.
+- Visual Studio Code
+- Bootstrap
+- HTML
+- CSS
+- JavaScript
+- PHP
+- MySQL
 
-Visit the store from here: https://themewagon.com/theme-categories/premium-templates/
+## Funcionalidades
 
-Alternatively, here's our top most trending and selling items:
+- ✔ Listar produtos
+- ✔ Pesquisar
+- ✔ Encomendar
+- ✔ Carrinho de Compra
+- ✔ Leilão de produto
+- ✔ Fale connosco
+- ✔ Login
+- ✔ Criar conta
+- ✔ Produto em leilão
+- ✔ Produto em prestação
+- ✔ Categorias
+- ✔ Detalhes de produto
+- ✔ Comentar e dar estrelas ao produto
+- ✔ Filtrar produtos pelo preço
+- ✔ Produtos relacionados
+- ✔ Termos e condições
+- ✔ Política de Privacidade
+- ✔ outras...
 
-* [**Sparrow**](https://themewagon.com/themes/sparrow/) - A multipurpose template made with Bootstrap 4.1 and world's finest animation.
-* [**Posh**](https://themewagon.com/themes/posh-html5-bootstrap-4-template/) - Bootstrap 4 template with a myriad number of ready-to-deploy sections. 
-* [**Elixir**](https://themewagon.com/themes/elixir-elegant-html5-bootstrap-template-consultancy-agency-website/) - Bootstrap 4 agency template. Best for smooth animated scrolling. 
-* [**Freya**](https://themewagon.com/themes/bootstrap-4-premium-interior-design-template-freya/) - Interior design template made with Bootstrap 4. 
-* [**Reign Pro**](https://themewagon.com/themes/reign-pro-premium-corporate-agency-html5-template/) - A corporate template with a visually unique design scheme. 
-* [**Boots4**](https://themewagon.com/themes/first-ever-bootstrap-4-template/) - One of the first Bootstrap 4 templates ever made on earth. 
-* [**Hideaway**](https://themewagon.com/themes/hideaway/) - A template for resorts. Built with Bootstrap 4. 
-* [**Baikal**](https://themewagon.com/themes/bootstrap-4-startup-small-business-website-template/) - A smart Bootstrap template for start-up. 
-* [**Mega Discount**](https://themewagon.com/themes/mega-discount-bundle/) - A bundle of 26 HTML5 templates; best value for your money. 
+## Referências
+
+- HTML: [Documentação HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- JavaScript: [Documentação JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- Bootstrap: [Documentação Bootstrap](https://getbootstrap.com/docs/)
+- PHP: [Documentação PHP](https://www.php.net/docs.php)
+- MySQL: [Documentação MySQL](https://dev.mysql.com/doc/)
 
 
+## Observações
+
+N/A
+
+### Vamos Colaborar 
+<a id="vamos-colaborar"></a>
+Estou sempre em busca de novos desafios e oportunidades de colaboração. Se vovê gostou do que viu aqui, não hesite em entrar em contacto. Adoraria discutir como posso contribuir para seus projectos emocionantes.

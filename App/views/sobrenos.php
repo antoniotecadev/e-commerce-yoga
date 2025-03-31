@@ -184,12 +184,12 @@
                 <div class="col-md-6">
                     <img src="../img/sobre-nos/teca.png" class="img-circle img-thumbnail" alt="">
                     <p style="color:gray"><strong>António Teca</strong></p>
-                    <h6 style="color:black;">Desenvolvedor Fullstack</h6>
+                    <h6 style="color:black;">Desenvolvedor Full Stack</h6>
                 </div>
                 <div class="col-md-6">
                     <img src="../img/sobre-nos/austin.png" class="img-circle img-thumbnail" alt="">
                     <p style="color:gray"><strong>Austin Joaquim</strong></p>
-                    <h6 style="color:black;">Desenvolvedor Fullstack</h6>
+                    <h6 style="color:black;">Desenvolvedor Full Stack</h6>
                 </div>
         </div>
         <!-- /container -->

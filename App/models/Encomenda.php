@@ -152,6 +152,7 @@ class Encomenda
             </script>
             <?php endif;
     }
+
     public function notificacaoEncomenda()
     {
         $consultar = Conexao::getConnect()->prepare('SELECT * FROM `view_notificacao_encomenda`;'); // Views
@@ -168,6 +169,7 @@ class Encomenda
         $consultar->execute();
         return $consultar->fetchAll(\PDO::FETCH_ASSOC);
     }
+
     public function visualizar()
     {
         $this->setIdcliente(preg_replace('/[^[a-z0-9]_]/', ' ', $this->getIdcliente()));
@@ -245,4 +247,64 @@ class Encomenda
             if($envio){
              }
         }
-    }
+
+        /*
+         CASO AS VIEWS NÃO FUNCIONEM
+         public function notificacaoEncomenda()
+        {
+            $sql = "
+                SELECT 
+                    ec.id AS id,
+                    ec.detalhe AS detalhe,
+                    ec.dataencomenda AS dataencomenda,
+                    ec.visibilidade AS visibilidade,
+                    ec.fkusuario AS fkusuario,
+                    ec.porqueanulada AS porqueanulada,
+                    ct.nome AS nome,
+                    ct.sobrenome AS sobrenome,
+                    ct.sexo AS sexo,
+                    ct.telefone1 AS telefone1,
+                    ct.email AS email,
+                    ct.bairro AS bairro,
+                    ct.rua AS rua
+                FROM 
+                    encomendacliente ec
+                JOIN 
+                    cliente ct ON ct.idcliente = ec.fkcliente
+                ORDER BY 
+                    ec.id DESC
+            ";
+
+            $consultar = Conexao::getConnect()->prepare($sql);
+            $consultar->execute();
+            return $consultar->fetchAll(\PDO::FETCH_ASSOC);
+        }
+
+        public function enviarEmailEncomenda()
+        {
+            $sql = "
+                SELECT 
+                    ec.dataencomenda AS dataencomenda,
+                    ct.nome AS nome,
+                    ct.telefone1 AS telefone1
+                FROM 
+                    encomendacliente ec
+                JOIN 
+                    cliente ct ON ct.idcliente = ec.fkcliente
+                ORDER BY 
+                    ec.id DESC
+                LIMIT 1
+            ";
+
+            $consultar = Conexao::getConnect()->prepare($sql);
+            $consultar->execute();
+
+            if ($consultar->rowCount()) {
+                $res = $consultar->fetchAll(\PDO::FETCH_ASSOC);
+                foreach ($res as $dados) {
+                    $this->enviar($dados['dataencomenda'], $dados['nome'], $dados['telefone1']);
+                }
+            }
+        }
+    */
+}

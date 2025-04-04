@@ -188,6 +188,7 @@ class ProdutoDAO extends Produto
             </form>
         </div>';
     }
+
     // Consultar os últimos 10 produtos cadastrado
     public function novosProdutos()
     {
@@ -195,6 +196,7 @@ class ProdutoDAO extends Produto
         $consultar->execute();
         return $consultar->fetchAll(\PDO::FETCH_ASSOC);
     }
+
     //Consultar foto do produto
     public function fotoProduto()
     {
@@ -204,6 +206,7 @@ class ProdutoDAO extends Produto
         $consultar->execute();
         return $consultar->fetchAll(\PDO::FETCH_ASSOC);
     }
+
     // Consultar os produtos mais vendidos
     public function produtoMaisvendido()
     {
@@ -211,6 +214,7 @@ class ProdutoDAO extends Produto
         $consultar->execute();
         return $consultar->fetchAll(\PDO::FETCH_ASSOC);
     }
+
     // Consultar produtos do carrinho
     public function produtoCarrinho()
     {
@@ -219,6 +223,7 @@ class ProdutoDAO extends Produto
         $consultar->execute();
         return $consultar->fetchAll(\PDO::FETCH_ASSOC);
     }
+    
     public function pesquisarProduto()
     {
         $this->setNome(preg_replace('/[^[a-z0-9]_]/', ' ', $this->getNome()));
@@ -393,4 +398,71 @@ class ProdutoDAO extends Produto
             $this->alertprod("Erro!", "Não Foi possivel Eliminar o Produto", "alert-danger", "", "btn-danger", "6", "0", "450px","admin.php?sessao=prodadmin");
         endif;
     }
+    /* CASO AS VIEWS NÃO FUNCIONEM
+        public function novosProdutos()
+    {
+        $sql = "
+            SELECT 
+                p.idproduto AS idproduto,
+                p.nome AS nome,
+                p.preco_ac AS preco_ac,
+                p.preco_at AS preco_at,
+                p.descricao AS descricao,
+                p.visibilidade AS visibilidade,
+                pf.foto AS foto,
+                e.nomeestado AS nomeestado,
+                c.nomecategoria AS nomecategoria
+            FROM 
+                produto p
+            JOIN 
+                produtofoto pf ON p.idproduto = pf.fkproduto
+            JOIN 
+                estado e ON p.fkestado = e.idestado
+            JOIN 
+                subcategoria c ON p.fkcategoria = c.idcategoria
+            GROUP BY 
+                p.nome
+            ORDER BY 
+                p.idproduto DESC
+            LIMIT 10
+        ";
+
+        $consultar = Conexao::getConnect()->prepare($sql);
+        $consultar->execute();
+        return $consultar->fetchAll(\PDO::FETCH_ASSOC);
+    }
+
+    public function produtoMaisvendido()
+    {
+        $sql = "
+            SELECT 
+                p.idproduto AS idproduto,
+                p.nome AS nome,
+                p.preco_ac AS preco_ac,
+                p.preco_at AS preco_at,
+                p.descricao AS descricao,
+                p.visibilidade AS visibilidade,
+                pf.foto AS foto,
+                e.nomeestado AS nomeestado,
+                c.nomecategoria AS nomecategoria
+            FROM 
+                produto p
+            JOIN 
+                produtofoto pf ON p.idproduto = pf.fkproduto
+            JOIN 
+                estado e ON p.fkestado = e.idestado
+            JOIN 
+                subcategoria c ON p.fkcategoria = c.idcategoria
+            GROUP BY 
+                p.nome
+            ORDER BY 
+                RAND()
+            LIMIT 10
+        ";
+
+        $consultar = Conexao::getConnect()->prepare($sql);
+        $consultar->execute();
+        return $consultar->fetchAll(\PDO::FETCH_ASSOC);
+    }
+    */
 }

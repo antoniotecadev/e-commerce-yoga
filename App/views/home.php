@@ -243,7 +243,7 @@ endforeach;
 										?>
 										<div class="product">
 											<div class="product-img">
-												<img src="../img/<?php echo $pasta . '/' . $foto; ?>" alt="">
+												<img src="../img/<?php echo strtolower($pasta) . '/' . $foto; ?>" alt="">
 												
 												<div class="product-label">
 													<span class="new"><?php echo $nvp['nomeestado']; ?></span>
@@ -402,7 +402,7 @@ endforeach;
 										?>
 										<div class="product">
 											<div class="product-img">
-												<img src="../img/<?php echo $pasta . '/' . $foto; ?>" alt="">
+												<img src="../img/<?php echo strtolower($pasta) . '/' . $foto; ?>" alt="">
 												<div class="product-label">
 													<span class="new"><?php echo $pmv['nomeestado']; ?></span>
 												</div>
@@ -573,7 +573,7 @@ endforeach;
 		<!-- product widget -->
 		<div class="product-widget">
 			<div class="product-img">
-				<img src="../img/<?php echo $pasta . '/' . $foto; ?>" alt="">
+				<img src="../img/<?php echo strtolower($pasta) . '/' . $foto; ?>" alt="">
 			</div>
 			<div class="product-body">
 				<p class="product-category"><?php echo $pmvw['nomecategoria']; ?></p>

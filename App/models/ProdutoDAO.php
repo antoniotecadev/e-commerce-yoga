@@ -465,4 +465,35 @@ class ProdutoDAO extends Produto
         return $consultar->fetchAll(\PDO::FETCH_ASSOC);
     }
     */
+
+/* SEM PROCEDURE
+public function produtoCarrinho()
+{
+    $sql = "
+        SELECT 
+            p.idproduto, 
+            p.nome, 
+            p.preco_ac, 
+            pf.foto, 
+            sb.nomecategoria, 
+            p.fkestado
+        FROM 
+            produto p
+        INNER JOIN 
+            produtofoto pf ON p.idproduto = pf.fkproduto
+        INNER JOIN 
+            subcategoria sb ON p.fkcategoria = sb.idcategoria
+        WHERE 
+            p.idproduto = ?
+        LIMIT 1
+    ";
+
+    $consultar = Conexao::getConnect()->prepare($sql);
+    $consultar->bindValue(1, $this->getIdproduto(), \PDO::PARAM_INT);
+    $consultar->execute();
+    
+    return $consultar->fetchAll(\PDO::FETCH_ASSOC);
+}
+
+*/
 }

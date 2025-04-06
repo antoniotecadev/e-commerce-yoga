@@ -81,6 +81,7 @@ class Comentario
             $this->alertComentario("Comentario", "não enviado", "alert-danger", "btn-danger", "times");
         endif;
     }
+
     public function consultarComentario()
     { // consultar comentarios de um produto
         $consultar = Conexao::getConnect()->prepare('CALL `proced_ver_comentario`(?,?);'); // Procedure
@@ -89,6 +90,7 @@ class Comentario
         $consultar->execute();
         return $consultar->fetchAll(\PDO::FETCH_ASSOC);
     }
+
     public function alertComentario($titulo, $mensagem, $tipo, $btn, $icon)
     { // Função para chamar o alert
         echo '
@@ -142,9 +144,45 @@ public function comentar()
 
     // 4. Verificar resultado
     if ($insertQuery->rowCount()) {
-        echo "<script>window.location.href = '" . $_SERVER['PHP_SELF'] . "';</script>";
+        header("Location: " . $_SERVER['HTTP_REFERER']);
+        exit();
     } else {
         $this->alertComentario("Comentario", "não enviado", "alert-danger", "btn-danger", "times");
     }
 }
+
+
+public function consultarComentario()
+{
+    $idproduto = $this->getIdproduto();
+    $salto = $this->getSalto(); // ex: 0, 3, 6...
+
+    $sql = "
+        SELECT 
+            c.comentario, 
+            c.avaliacao, 
+            c.data, 
+            ct.nome, 
+            ct.sobrenome
+        FROM 
+            produto p
+        INNER JOIN 
+            comentario c ON p.idproduto = c.fkproduto
+        INNER JOIN 
+            cliente ct ON ct.idcliente = c.fkcliente
+        WHERE 
+            p.idproduto = ?
+        ORDER BY 
+            c.idcomentario DESC
+        LIMIT ?, 3
+    ";
+
+    $consultar = Conexao::getConnect()->prepare($sql);
+    $consultar->bindValue(1, $idproduto, \PDO::PARAM_INT);
+    $consultar->bindValue(2, $salto, \PDO::PARAM_INT);
+    $consultar->execute();
+
+    return $consultar->fetchAll(\PDO::FETCH_ASSOC);
+}
+
  */

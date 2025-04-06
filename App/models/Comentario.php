@@ -57,6 +57,7 @@ class Comentario
     {
         $this->salto = $salto;
     }
+    
     // Comentar um produto
     public function comentar()
     {
@@ -103,3 +104,47 @@ class Comentario
           ';
     }
 }
+
+/* PROCEDURE EM PHP
+public function comentar()
+{
+    // Sanear entradas
+    $comentario = preg_replace('/[^[a-z0-9]_]/', ' ', $this->getComentario());
+    $avaliacao = preg_replace('/[^[0-5]_]/', ' ', $this->getAvaliacao());
+    $fkproduto = preg_replace('/[^[0-9]_]/', ' ', $this->getFkproduto());
+    $fkcliente = preg_replace('/[^[0-9]_]/', ' ', $this->getFkcliente());
+
+    // 1. Verificar quantos comentários existem para este produto
+    $countQuery = Conexao::getConnect()->prepare("
+        SELECT COUNT(*) AS total FROM comentario WHERE fkproduto = ?
+    ");
+    $countQuery->execute([$fkproduto]);
+    $total = $countQuery->fetch(\PDO::FETCH_ASSOC)['total'];
+
+    // 2. Se houver 9 comentários, apagar o mais antigo
+    if ($total >= 9) {
+        $deleteQuery = Conexao::getConnect()->prepare("
+            DELETE FROM comentario WHERE fkproduto = ? ORDER BY idcomentario ASC LIMIT 1
+        ");
+        $deleteQuery->execute([$fkproduto]);
+    }
+
+    // 3. Inserir o novo comentário
+    $insertQuery = Conexao::getConnect()->prepare("
+        INSERT INTO comentario (comentario, avaliacao, fkproduto, fkcliente)
+        VALUES (?, ?, ?, ?)
+    ");
+    $insertQuery->bindValue(1, htmlspecialchars($comentario));
+    $insertQuery->bindValue(2, htmlspecialchars($avaliacao));
+    $insertQuery->bindValue(3, htmlspecialchars($fkproduto));
+    $insertQuery->bindValue(4, htmlspecialchars($fkcliente));
+    $insertQuery->execute();
+
+    // 4. Verificar resultado
+    if ($insertQuery->rowCount()) {
+        echo "<script>window.location.href = '" . $_SERVER['PHP_SELF'] . "';</script>";
+    } else {
+        $this->alertComentario("Comentario", "não enviado", "alert-danger", "btn-danger", "times");
+    }
+}
+ */

@@ -495,5 +495,34 @@ public function produtoCarrinho()
     return $consultar->fetchAll(\PDO::FETCH_ASSOC);
 }
 
+public function pesquisarProduto()
+{
+    $this->setNome(preg_replace('/[^[a-z0-9]_]/', ' ', $this->getNome()));
+
+    $sql = "
+        SELECT 
+            p.idproduto, p.nome, p.preco_ac, p.preco_at, p.descricao, 
+            e.nomeestado, sc.nomecategoria, pf.foto 
+        FROM 
+            produto p 
+        JOIN 
+            estado e ON p.fkestado = e.idestado 
+        JOIN 
+            subcategoria sc ON p.fkcategoria = sc.idcategoria 
+        JOIN 
+            categoria c ON sc.fkcategoria = c.idcategoria 
+        JOIN 
+            produtofoto pf ON pf.fkproduto = p.idproduto 
+        WHERE 
+            p.nome LIKE ?
+    ";
+
+    $consulta = Conexao::getConnect()->prepare($sql);
+    $consulta->bindValue(1, '%' . htmlspecialchars($this->getNome()) . '%', \PDO::PARAM_STR);
+    $consulta->execute();
+
+    return $consulta->fetchAll(\PDO::FETCH_ASSOC);
+}
+
 */
 }

@@ -85,18 +85,23 @@ class SubCategoria
         return $subcategoria->fetchAll(\PDO::FETCH_ASSOC);
     } 
 
-    public function buscarSubcategoria($sql){ // Método para buscar as categoria
+    public function buscarSubcategoria($sql)
+    { // Método para buscar as categoria
         $consulta= Conexao::getConnect()->prepare($sql);
         $consulta->execute();
         return $consulta->fetchAll(\PDO::FETCH_ASSOC); 
     }
-    public function todasSubcategorias(){ // Método para buscar as categoria
+
+    public function todasSubcategorias()
+    { // Método para buscar as categoria
         $consulta= Conexao::getConnect()->prepare('SELECT idcategoria, nomecategoria FROM subcategoria');
         $consulta->execute();
         return $consulta->fetchAll(\PDO::FETCH_ASSOC);
     }
-    public function consultaChekOf(){ 
-        $consulta= Conexao::getConnect()->prepare('CALL `proced_filtra_preco`(?, ?, ?, ?, ?);');
+    
+    public function consultaChekOf()
+    { 
+        $consulta= Conexao::getConnect()->prepare('CALL `proced_filtrar_preco_m`(?, ?, ?, ?, ?);');
         $consulta->bindValue(1, $this->getPreco1());
         $consulta->bindValue(2, $this->getPreco2());
         $consulta->bindValue(3, $this->getInicio());
@@ -105,7 +110,9 @@ class SubCategoria
         $consulta->execute();
         return $consulta->fetchAll(\PDO::FETCH_ASSOC);
     }
-    public function consultaProdAleatorio(){ 
+
+    public function consultaProdAleatorio()
+    { 
         $consulta= Conexao::getConnect()->prepare('CALL `proced_prod_aleatorio`(?, ?, ?);');
         $consulta->bindValue(1, $this->getIdest());
         $consulta->bindValue(2, $this->getInicio());
@@ -113,7 +120,9 @@ class SubCategoria
         $consulta->execute();
         return $consulta->fetchAll(\PDO::FETCH_ASSOC);
     }
-    public function consultaSubCat(){ 
+
+    public function consultaSubCat()
+    { 
 
         $consulta= Conexao::getConnect()->prepare('CALL `proced_subcat`(?, ?, ?, ?);');
         $consulta->bindValue(1, $this->getIdest());
@@ -123,4 +132,110 @@ class SubCategoria
         $consulta->execute();
         return $consulta->fetchAll(\PDO::FETCH_ASSOC);
     }
+
+/* SEM PROCEDURE
+
+    public function consultaSubCat()
+    {
+        $sql = "
+            SELECT 
+                p.idproduto, p.nome, p.preco_ac, p.preco_at, p.descricao, 
+                p.visibilidade, e.nomeestado, e.idestado, sc.nomecategoria,
+                pf.foto, c.idcategoria, sc.idcategoria AS idsubcategoria 
+            FROM 
+                produto p 
+            JOIN 
+                estado e ON p.fkestado = e.idestado 
+            JOIN 
+                subcategoria sc ON p.fkcategoria = sc.idcategoria 
+            JOIN 
+                categoria c ON sc.fkcategoria = c.idcategoria 
+            JOIN 
+                produtofoto pf ON pf.fkproduto = p.idproduto 
+            WHERE 
+                e.idestado = ? 
+                AND sc.idcategoria = ? 
+            GROUP BY 
+                p.nome 
+            LIMIT ?, ?
+        ";
+
+        $consulta = Conexao::getConnect()->prepare($sql);
+        $consulta->bindValue(1, $this->getIdest(), \PDO::PARAM_INT);
+        $consulta->bindValue(2, $this->getIdsubcategoria(), \PDO::PARAM_INT);
+        $consulta->bindValue(3, $this->getInicio(), \PDO::PARAM_INT);
+        $consulta->bindValue(4, $this->getQuantidade_pg(), \PDO::PARAM_INT);
+        $consulta->execute();
+
+        return $consulta->fetchAll(\PDO::FETCH_ASSOC);
+    }
+
+    public function consultaProdAleatorio()
+    {
+        $sql = "
+            SELECT 
+                p.idproduto, p.nome, p.preco_ac, p.preco_at, p.descricao, 
+                p.visibilidade, pf.foto, e.nomeestado, sc.nomecategoria, 
+                sc.idcategoria AS idsubcategoria, c.idcategoria AS idcategoria, 
+                e.idestado 
+            FROM 
+                produto p
+            JOIN 
+                produtofoto pf ON p.idproduto = pf.fkproduto
+            JOIN 
+                estado e ON p.fkestado = e.idestado
+            JOIN 
+                subcategoria sc ON p.fkcategoria = sc.idcategoria
+            JOIN 
+                categoria c ON sc.fkcategoria = c.idcategoria
+            WHERE 
+                e.idestado = ?
+            GROUP BY 
+                p.nome
+            LIMIT ?, ?
+        ";
+
+        $consulta = Conexao::getConnect()->prepare($sql);
+        $consulta->bindValue(1, $this->getIdest(), \PDO::PARAM_INT);
+        $consulta->bindValue(2, $this->getInicio(), \PDO::PARAM_INT);
+        $consulta->bindValue(3, $this->getQuantidade_pg(), \PDO::PARAM_INT);
+        $consulta->execute();
+
+        return $consulta->fetchAll(\PDO::FETCH_ASSOC);
+    }
+        
+    public function consultaCheckOf()
+    {
+        $sql = "
+            SELECT 
+                p.idproduto, p.nome, p.preco_ac, p.preco_at, p.descricao, 
+                pf.foto, e.nomeestado, c.nomecategoria 
+            FROM 
+                produto p 
+            JOIN 
+                produtofoto pf ON p.idproduto = pf.fkproduto 
+            JOIN 
+                estado e ON p.fkestado = e.idestado 
+            JOIN 
+                subcategoria c ON p.fkcategoria = c.idcategoria 
+            WHERE 
+                p.fkcategoria = ? 
+                AND p.preco_ac BETWEEN ? AND ? 
+            GROUP BY 
+                p.nome 
+            LIMIT ?, ?
+        ";
+
+        $consulta = Conexao::getConnect()->prepare($sql);
+
+        $consulta->bindValue(1, $this->getIdcategoria(), \PDO::PARAM_INT);
+        $consulta->bindValue(2, $this->getPreco1(), \PDO::PARAM_INT);
+        $consulta->bindValue(3, $this->getPreco2(), \PDO::PARAM_INT);
+        $consulta->bindValue(4, $this->getInicio(), \PDO::PARAM_INT);
+        $consulta->bindValue(5, $this->getQuantidade_pg(), \PDO::PARAM_INT);
+
+        $consulta->execute();
+        return $consulta->fetchAll(\PDO::FETCH_ASSOC);
+    }
+ */
 }

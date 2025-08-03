@@ -1,13 +1,38 @@
-# E-Commerce-Yoga (KOOP)
-<a id="e-commerce-yoga"></a>
+# 🛍️ E-Commerce-Yoga (KOOP)
+KOOP é uma loja online de venda de produtos diversos, desenvolvida por antoniotecadev, com foco em experiência de compra completa, incluindo leilão, pedido parcelado e interação com o usuário
+
+## Link de acesso
+
+ [E-Commerce-Yoga (KOOP)](https://antoniotecadev.rf.gd/koop/app/views/index.php)
+ OU
+ [E-Commerce-Yoga (KOOP)](https://tecadev.me/koop/app/views/index.php)
+
+### Screenshots
+
 ![Home-capa](https://github.com/antonioteca/antonioteca/blob/main/E-Commerce-Yoga/Imagens/e-commerce-yoga-2023-08-30%20(14).png)
-[Ver mais](https://github.com/antonioteca/antonioteca/tree/main/E-Commerce-Yoga/Imagens)  
+[Ver mais](https://github.com/antonioteca/antonioteca/tree/main/E-Commerce-Yoga/Imagens) 
 
-## Descrição
+## Funcionalidades
 
-E-Commerce-Yoga (KOOP) é uma loja electrônica para vendas de produtos diversos.     
+- ✔ Listar produtos
+- ✔ Pesquisar
+- ✔ Encomendar / checkout
+- ✔ Carrinho de compra (add, remover, atualizar)
+- ✔ Leilão de produto
+- ✔ Fale conosco (formulário de contato)
+- ✔ Login / Criar conta
+- ✔ Produto em leilão — lógica de lance
+- ✔ Produto em prestação (parcelamento)
+- ✔ Categorias (filtros)
+- ✔ Detalhes de produto (página própria)
+- ✔ Comentar e dar estrelas ao produto
+- ✔ Filtrar produtos por preço
+- ✔ Produtos relacionados (cross-sell)
+- ✔ Termos e condições
+- ✔ Política de Privacidade
+- ✔ e diversas outras funcionalidades…
 
-## Ferramentas Utilizadas
+## Tecnologias Utilizadas
 [![My Skills](https://skillicons.dev/icons?i=vscode,bootstrap,html,css,js,php,mysql)](https://skillicons.dev)
 
 - Visual Studio Code
@@ -18,27 +43,6 @@ E-Commerce-Yoga (KOOP) é uma loja electrônica para vendas de produtos diversos
 - PHP
 - MySQL
 
-## Funcionalidades
-
-- ✔ Listar produtos
-- ✔ Pesquisar
-- ✔ Encomendar
-- ✔ Carrinho de Compra
-- ✔ Leilão de produto
-- ✔ Fale connosco
-- ✔ Login
-- ✔ Criar conta
-- ✔ Produto em leilão
-- ✔ Produto em prestação
-- ✔ Categorias
-- ✔ Detalhes de produto
-- ✔ Comentar e dar estrelas ao produto
-- ✔ Filtrar produtos pelo preço
-- ✔ Produtos relacionados
-- ✔ Termos e condições
-- ✔ Política de Privacidade
-- ✔ outras...
-
 ## Referências
 
 - HTML: [Documentação HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -47,11 +51,21 @@ E-Commerce-Yoga (KOOP) é uma loja electrônica para vendas de produtos diversos
 - PHP: [Documentação PHP](https://www.php.net/docs.php)
 - MySQL: [Documentação MySQL](https://dev.mysql.com/doc/)
 
+## 📂 Estrutura do Projecto
+```plaintext
+koop/
+├── index.php
+├── App/
+│   ├── Controllers/
+│   ├── Models/
+│   ├── Views/
+|   └── ...
+├── composer.json
+└── README.md
+```
 
-## Observações
+## Usado Por
 
-N/A
+Este projecto é usado pelas seguintes empresas:
 
-### Vamos Colaborar 
-<a id="vamos-colaborar"></a>
-Estou sempre em busca de novos desafios e oportunidades de colaboração. Se vovê gostou do que viu aqui, não hesite em entrar em contacto. Adoraria discutir como posso contribuir para seus projectos emocionantes.
+[Koop Angola](https://https://www.facebook.com/KoopAngola/?locale=pt_BR)

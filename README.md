@@ -1,7 +1,7 @@
 # 🛍️ E-Commerce-Yoga (KOOP)
-KOOP é uma loja online de venda de produtos diversos, desenvolvida por antoniotecadev, com foco em experiência de compra completa, incluindo leilão, pedido parcelado e interação com o usuário
+KOOP is an online store selling various products, developed by antoniotecadev, with a focus on a complete shopping experience, including auctions, installment orders and user interaction.
 
-## Link de acesso
+## Access link
 
  [E-Commerce-Yoga (KOOP)](https://antoniotecadev.rf.gd/koop/app/views/index.php)
  OU
@@ -10,29 +10,29 @@ KOOP é uma loja online de venda de produtos diversos, desenvolvida por antoniot
 ### Screenshots
 
 ![Home-capa](https://github.com/antonioteca/antonioteca/blob/main/E-Commerce-Yoga/Imagens/e-commerce-yoga-2023-08-30%20(14).png)
-[Ver mais](https://github.com/antonioteca/antonioteca/tree/main/E-Commerce-Yoga/Imagens) 
+[See more](https://github.com/antonioteca/antonioteca/tree/main/E-Commerce-Yoga/Imagens) 
 
-## Funcionalidades
+## Features
 
-- ✔ Listar produtos
-- ✔ Pesquisar
-- ✔ Encomendar / checkout
-- ✔ Carrinho de compra (add, remover, atualizar)
-- ✔ Leilão de produto
-- ✔ Fale conosco (formulário de contato)
-- ✔ Login / Criar conta
-- ✔ Produto em leilão — lógica de lance
-- ✔ Produto em prestação (parcelamento)
-- ✔ Categorias (filtros)
-- ✔ Detalhes de produto (página própria)
-- ✔ Comentar e dar estrelas ao produto
-- ✔ Filtrar produtos por preço
-- ✔ Produtos relacionados (cross-sell)
-- ✔ Termos e condições
-- ✔ Política de Privacidade
-- ✔ e diversas outras funcionalidades…
+- ✔ List products
+- ✔ Search
+- ✔ Order / Checkout
+- ✔ Shopping cart (add, remove, update)
+- ✔ Product auction
+- ✔ Contact us (contact form)
+- ✔ Login / Create account
+- ✔ Product auction — bidding logic
+- ✔ Product installment (installment payment)
+- ✔ Categories (filters)
+- ✔ Product details (own page)
+- ✔ Comment and star ratings
+- ✔ Filter products by price
+- ✔ Related products (cross-sell)
+- ✔ Terms and conditions
+- ✔ Privacy policy
+- ✔ and several other features...
 
-## Tecnologias Utilizadas
+## Technologies Used
 [![My Skills](https://skillicons.dev/icons?i=vscode,bootstrap,html,css,js,php,mysql)](https://skillicons.dev)
 
 - Visual Studio Code
@@ -43,7 +43,7 @@ KOOP é uma loja online de venda de produtos diversos, desenvolvida por antoniot
 - PHP
 - MySQL
 
-## Referências
+## References
 
 - HTML: [Documentação HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - JavaScript: [Documentação JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
@@ -51,7 +51,7 @@ KOOP é uma loja online de venda de produtos diversos, desenvolvida por antoniot
 - PHP: [Documentação PHP](https://www.php.net/docs.php)
 - MySQL: [Documentação MySQL](https://dev.mysql.com/doc/)
 
-## 📂 Estrutura do Projecto
+## 📂 Project Structure
 ```plaintext
 koop/
 ├── index.php
@@ -64,9 +64,9 @@ koop/
 └── README.md
 ```
 
-## 🏢 Usado Por
+## 🏢 Used By
 
-Este projecto é usado pelas seguintes empresas:
+This project is used by the following companies:
 
 [Koop Angola](https://https://www.facebook.com/KoopAngola/?locale=pt_BR)
 
@@ -76,4 +76,4 @@ This project is **proprietary**.
 All rights reserved © 2025 António Teca.  
 You may not use, copy, modify, or distribute any part of this project without express written permission.
 
-Veja o ficheiro [LICENSE](LICENSE) para mais detalhes.
+See the [LICENSE](LICENSE) file for details.

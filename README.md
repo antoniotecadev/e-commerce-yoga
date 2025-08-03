@@ -80,7 +80,7 @@ See the [LICENSE](LICENSE) file for details.
 
 ---
 
-## Author
+## 🧑‍💻 Author
 
 - **António Teca** [GitHub](https://github.com/antoniotecadev)
 

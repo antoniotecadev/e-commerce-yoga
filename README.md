@@ -1,18 +1,18 @@
 # 🛍️ E-Commerce-Yoga (KOOP)
 KOOP is an online store selling various products, developed by antoniotecadev, with a focus on a complete shopping experience, including auctions, installment orders and user interaction.
 
-## Access link
+## 🔗 Access link
 
  [E-Commerce-Yoga (KOOP)](https://antoniotecadev.rf.gd/koop/app/views/index.php)
  OU
  [E-Commerce-Yoga (KOOP)](https://tecadev.me/koop/app/views/index.php)
 
-### Screenshots
+### 🖼️ Screenshots
 
 ![Home-capa](https://github.com/antonioteca/antonioteca/blob/main/E-Commerce-Yoga/Imagens/e-commerce-yoga-2023-08-30%20(14).png)
 [See more](https://github.com/antonioteca/antonioteca/tree/main/E-Commerce-Yoga/Imagens) 
 
-## Features
+## 📋 Features
 
 - ✔ List products
 - ✔ Search
@@ -32,7 +32,7 @@ KOOP is an online store selling various products, developed by antoniotecadev, w
 - ✔ Privacy policy
 - ✔ and several other features...
 
-## Technologies Used
+## 🧰 Technologies Used
 [![My Skills](https://skillicons.dev/icons?i=vscode,bootstrap,html,css,js,php,mysql)](https://skillicons.dev)
 
 - Visual Studio Code
@@ -43,7 +43,7 @@ KOOP is an online store selling various products, developed by antoniotecadev, w
 - PHP
 - MySQL
 
-## References
+## 📍 References
 
 - HTML: [Documentação HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - JavaScript: [Documentação JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)

@@ -64,8 +64,16 @@ koop/
 └── README.md
 ```
 
-## Usado Por
+## 🏢 Usado Por
 
 Este projecto é usado pelas seguintes empresas:
 
 [Koop Angola](https://https://www.facebook.com/KoopAngola/?locale=pt_BR)
+
+## 📜 License
+
+This project is **proprietary**.  
+All rights reserved © 2025 António Teca.  
+You may not use, copy, modify, or distribute any part of this project without express written permission.
+
+Veja o ficheiro [LICENSE](LICENSE) para mais detalhes.

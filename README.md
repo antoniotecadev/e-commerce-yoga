@@ -77,3 +77,11 @@ All rights reserved © 2025 António Teca.
 You may not use, copy, modify, or distribute any part of this project without express written permission.
 
 See the [LICENSE](LICENSE) file for details.
+
+---
+
+## Author
+
+- **António Teca** [GitHub](https://github.com/antoniotecadev)
+
+---

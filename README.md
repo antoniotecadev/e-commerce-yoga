@@ -68,7 +68,7 @@ koop/
 
 This project is used by the following companies:
 
-[Koop Angola](https://https://www.facebook.com/KoopAngola/?locale=pt_BR)
+[Koop Angola](https://www.facebook.com/KoopAngola/photos/?_rdr)
 
 ## 📜 License
 

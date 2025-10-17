@@ -82,6 +82,6 @@ See the [LICENSE](LICENSE) file for details.
 
 ## 🧑‍💻 Author
 
-- **António Teca** [GitHub](https://www.linkedin.com/in/antoniotecadev)
+- **António Teca** [Linkedin](https://www.linkedin.com/in/antoniotecadev)
 
 ---
